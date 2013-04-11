@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>eclipse.platform.ui.examples.featurePatch</artifactId>
+    <groupId>eclipse.platform.ui</groupId>
+    <version>4.2.2-SNAPSHOT</version>
+  </parent>
+
+  <groupId>eclipse.platform.ui</groupId>
+  <artifactId>org.eclipse.e4.ui.examples.update</artifactId>
+  <version>4.2.2.qualifier</version>
+  <packaging>eclipse-repository</packaging>
+
+  <name>org.eclipse.e4.ui.examples update site</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <configuration>
+          <dependency-resolution>
+            <extraRequirements>
+              <!-- this guarantees proper reactor build order  -->
+              <requirement>
+                <type>eclipse-feature</type>
+                <id>org.eclipse.e4.rcp</id>
+                <versionRange>1.1.2</versionRange>
+              </requirement>
+            </extraRequirements>
+          </dependency-resolution>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+</project>
+
