@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.e4.rcp.r422.feature_1.0.0.qualifier.jar" id="org.eclipse.e4.rcp.r422.feature" version="1.0.0.qualifier">
+      <category name="org.eclipse.e4.ui.junoSR2.category"/>
+   </feature>
+   <feature url="features/org.eclipse.e4.rcp.r422.feature.source_1.0.0.qualifier.jar" id="org.eclipse.e4.rcp.r422.feature.source" version="1.0.0.qualifier">
+      <category name="org.eclipse.e4.ui.junoSR2.category"/>
+   </feature>
+   <category-def name="org.eclipse.e4.ui.junoSR2.category" label="Juno SR2 Patches"/>
+</site>
+

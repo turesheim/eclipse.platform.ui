@@ -26,7 +26,8 @@
 
    <properties>
      <tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git</tycho.scmUrl>
-  </properties>
+     <eclipse-p2-repo.url>http://build.eclipse.org/eclipse/builds/pwebster/R4_2_maintenance/repo422+20130419072111</eclipse-p2-repo.url>
+   </properties>
 
   <repositories>
     <repository>
@@ -42,10 +43,8 @@
   </repositories>
  
   <modules>
-    <module>org.eclipse.license</module>
-    <module>../../bundles/org.eclipse.e4.ui.workbench</module>
-    <module>org.eclipse.e4.rcp.example.feature</module>
-    <module>org.eclipse.e4.ui.examples.update</module>
+    <module>org.eclipse.e4.rcp.r422.feature</module>
+    <module>org.eclipse.e4.ui.r422.update</module>
   </modules>
 
 </project>

@@ -9,12 +9,11 @@
   </parent>
 
   <groupId>eclipse.platform.ui</groupId>
-  <artifactId>org.eclipse.e4.ui.examples.update</artifactId>
+  <artifactId>org.eclipse.e4.ui.r422.update</artifactId>
   <version>4.2.2.qualifier</version>
   <packaging>eclipse-repository</packaging>
 
-  <name>org.eclipse.e4.ui.examples update site</name>
-
+  <name>Juno SR2 patches site</name>
   <build>
     <plugins>
       <plugin>
@@ -35,7 +34,6 @@
       </plugin>
     </plugins>
   </build>
-
 
 </project>
 
