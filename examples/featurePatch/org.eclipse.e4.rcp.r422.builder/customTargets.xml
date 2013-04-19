@@ -3,8 +3,12 @@
 	<property name="eclipsePlatformRepo" value="http://build.eclipse.org/eclipse/builds/pwebster/R4_2_maintenance/repo422+20130419072111"/>
         <target name="preProcessRepos">
                 <p2.mirror source="${eclipsePlatformRepo}" destination="${repoBaseLocation}/launchers">
-                        <iu id="org.eclipse.equinox.executable.feature.group" version=""/>
-                        <iu id="org.eclipse.rcp.feature.group" version="" />
+                        <!--iu id="org.eclipse.equinox.executable.feature.group" version=""/>
+                        <iu id="org.eclipse.rcp.feature.group" version="" /-->
+                </p2.mirror>
+                <p2.mirror source="http://download.eclipse.org/eclipse/updates/license" destination="${repoBaseLocation}/license">
+                        <!--iu id="org.eclipse.equinox.executable.feature.group" version=""/>
+                        <iu id="org.eclipse.rcp.feature.group" version="" /-->
                 </p2.mirror>
         </target>
 
