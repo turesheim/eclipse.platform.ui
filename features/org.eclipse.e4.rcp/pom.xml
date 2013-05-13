@@ -49,6 +49,7 @@
                 <plugin id="org.eclipse.equinox.launcher.gtk.linux.s390x"/>
                 <plugin id="org.eclipse.equinox.launcher.gtk.linux.s390"/>
                 <plugin id="org.eclipse.equinox.launcher.gtk.linux.x86_64"/>
+                <plugin id="org.eclipse.equinox.launcher.gtk.linux.armv6l"/>
                 <plugin id="org.eclipse.equinox.launcher.gtk.aix.ppc"/>
                 <plugin id="org.eclipse.equinox.launcher.gtk.aix.ppc64"/>
                 <plugin id="org.eclipse.equinox.launcher.gtk.hpux.ia64"/>
